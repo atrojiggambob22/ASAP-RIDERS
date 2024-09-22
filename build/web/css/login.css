@@ -1,0 +1,133 @@
+    *{
+        margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+        font-family: 'Roboto Slab', serif;
+        font-size:20px;
+        color: black;
+        /*background-image:url("images/cart.jpg");*/ 
+        
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    background:white;
+    /*background-image:url('images/cart.jpg');*/
+}
+.container{
+    margin-top:40px; 
+    position:relative;
+    width:70vw;
+    height:80vh;
+    background: #fff;
+    border-radius: 15px;
+   
+    
+}
+.card{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+    
+} 
+.form-control{
+    width: 30vw;
+    height:50px;
+    background: #fff;
+    /*margin:4px 0;*/
+    border:0.02px solid #ffbc32;
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    padding-left:10px  ;
+     
+    /*margin: 20px 0;*/
+}
+/*.container{
+   /*align-items: center;*/
+/*   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: absolute; 
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      border:2px brown solid;
+      border-radius: 4px;
+      height: 50vh;*/
+      /*margin-top: 5px;*/
+    /*right: 20%;*/
+    /*tranform:translate(-50px -50%);*/
+	/*height: 60px;*/
+/*}*/ 
+/*.card{
+    padding:10px;
+    margin-bottom:5px;
+    display:flex;
+    justify-content: space-between;
+}*/
+
+/*.form{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:40%;
+    min-width:238px;
+    padding:0 10px;
+    
+}*/
+.login-botton{
+    /*position: relative;*/
+    /*left: 70px;*/
+    text-align: center;
+    
+    
+}
+.login-botton:hover{
+    cursor: pointer;
+}
+.btn{
+ background:#ffbc32;
+ color: #fff;
+ border-radius:5px;
+ width: 60%;
+ height: 5vh;
+ border: 0.02px black solid;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.card-header{
+    height: 40px;
+    text-align:center;
+    /*display: flex;*/
+    font-size:40px;
+    color:black;
+    font-weight: bold;
+}
+/*.form-group{
+    padding-left:30px  ;
+}*/
+.form-group i{
+    width: 20px;
+    height:10px;
+    position: relative;
+    top:40px;
+    right: 30px;
+    
+}
+#ff{
+    position: relative;
+    top: 50px;
+}
+#UU{
+    text-decoration:none;
+}

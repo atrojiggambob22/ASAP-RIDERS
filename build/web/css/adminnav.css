@@ -1,0 +1,49 @@
+*{
+    /*background-color:black;*/ 
+    font-family:"shadowintolight","poppins",sans-serif;
+    color: black;
+    
+}
+nav{
+    display: flex;
+    align-items:center;
+    position:absolute;
+    top: 10px;
+    justify-content:space-around;
+    padding-top:20px;
+    padding-left: 10%;
+    padding-right: 10%; 
+   
+}
+.logo{
+    color:black;
+    font-size:28px;
+}
+span{
+    color:#c6ff32;
+    font-size:larger; 
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px 8px;
+    position: relative;
+    left: 50%;
+   
+    
+}
+h2{
+    margin-left: 60px;
+    position: relative;
+    right: 45%;
+    color: black;
+}
+
+nav ul li a:hover{
+    color:#c6ff32;
+    transition: .3s;
+    
+}
+a{
+     text-decoration: none;
+}
